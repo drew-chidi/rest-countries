@@ -46,6 +46,8 @@ const Countries = (props: Props) => {
             ))}
           </select>
         </label>
+
+        {/* CountryList Cards */}
         <CountryList />
       </section>
     </Fragment>

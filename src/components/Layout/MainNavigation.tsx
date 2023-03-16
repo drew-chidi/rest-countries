@@ -10,11 +10,11 @@ const MainNavigation = (props: Props) => {
         <ul className='justify-between items-center flex'>
           <li className='font-bold'>Where in the world?</li>
           <li className=''>
-            <span>
-              <MdDarkMode color='white' />
+            <span className='flex justify-center items-center gap-2 '>
+              <MdDarkMode color='black' />
               Dark Mode
             </span>
-            <span>
+            <span className='flex justify-center items-center gap-2 '>
               <CiDark />
               Dark Mode
             </span>
