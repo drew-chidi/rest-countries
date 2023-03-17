@@ -16,15 +16,15 @@ const CountryList = (props: Props) => {
           <h5 className='mb-2 font-extrabold'>Germany</h5>
           <div className='flex flex-col gap-1'>
             <div className='flex'>
-              <p>Population:&#160; </p>
+              <p className='font-semibold'>Population:&#160; </p>
               <p>81,770,900</p>
             </div>
             <div className='flex'>
-              <p>Region:&#160;</p>
+              <p className='font-semibold'>Region:&#160;</p>
               <p>Europe</p>
             </div>
             <div className='flex'>
-              <p>Capital:&#160;</p>
+              <p className='font-semibold'>Capital:&#160;</p>
               <p>Berlin</p>
             </div>
           </div>
@@ -41,15 +41,15 @@ const CountryList = (props: Props) => {
           <h5 className='mb-2 font-extrabold'>United States of America</h5>
           <div className='flex flex-col gap-1'>
             <div className='flex'>
-              <p>Population:&#160; </p>
+              <p className='font-semibold'>Population:&#160; </p>
               <p>323,947,000</p>
             </div>
             <div className='flex'>
-              <p>Region:&#160;</p>
+              <p className='font-semibold'>Region:&#160;</p>
               <p>Americas</p>
             </div>
             <div className='flex'>
-              <p>Capital:&#160;</p>
+              <p className='font-semibold'>Capital:&#160;</p>
               <p>Washington, D.C.</p>
             </div>
           </div>
