@@ -97,9 +97,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Using Tailwind CSS to style your site in dark mode.](https://tailwindcss.com/docs/dark-mode) - This article helped me to understand how to implement dark mode and light mode usinf Tailwind
+- [Using Tailwind CSS to style your site in dark mode.](https://tailwindcss.com/docs/dark-mode) - This article helped me to understand how to implement dark mode and light mode using Tailwind
   CSS
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [How to Create Dark/Light Mode with React (Tailwind Styling)](https://dev.to/naomipham_/how-to-create-darklight-mode-with-react-and-tailwind-59e0) - A straightforward resource to learn about themes.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.

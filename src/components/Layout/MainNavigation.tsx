@@ -6,7 +6,7 @@ type Props = {};
 const MainNavigation = (props: Props) => {
   return (
     <header>
-      <nav>
+      <nav className='px-6 py-8 border-b'>
         <ul className='justify-between items-center flex'>
           <li className='font-bold'>Where in the world?</li>
           <li className=''>

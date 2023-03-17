@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.dark {
+  @apply bg-blue-dark_bg text-white;
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
 }
