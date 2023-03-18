@@ -63,6 +63,47 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
+### Component design
+
+```
+                          index.html
+                              |
+                              |
+                              |<renders>
+                              |
+                              |
+                          index.tsx
+                              |
+                              |
+                              |<renders>
+                              |
+                              |
+                           App.tsx
+                              |
+                              |
+                              |<renders>
+                              |
+                              |
+                        MainLayout.tsx
+                              |
+                              |
+        <MainLayout renders differnt screen-component
+           as "children" according to route setup>
+                              |
+                              |
+                              |
+        --------------------------------------------
+        |                     |                     |
+        |                     |                     |
+HeaderComponent.tsx       {children}      FooterComponent.tsx
+                     [exm: HomeScreen.tsx]
+                              |
+                              |<renders>
+                              |
+                      {page-components}
+                   [exm: HomeComponent.tsx]
+```
+
 ### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
@@ -100,7 +141,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Using Tailwind CSS to style your site in dark mode.](https://tailwindcss.com/docs/dark-mode) - This article helped me to understand how to implement dark mode and light mode using Tailwind
   CSS
 - [How to Create Dark/Light Mode with React (Tailwind Styling)](https://dev.to/naomipham_/how-to-create-darklight-mode-with-react-and-tailwind-59e0) - A straightforward resource to learn about themes.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [React Web App with TypeScript and Redux — a guide for a quick start](https://medium.com/front-end-weekly/react-web-app-with-typescript-and-redux-a-guide-for-a-quick-start-9d9fb7309c8) - This article will provide us the step by step guide to set up Redux.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
