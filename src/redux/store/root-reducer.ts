@@ -1,6 +1,11 @@
 import { combineReducers } from "redux";
 import globalReducer from "../slices";
 
+// Reducers types
+export type ReducerTypes = {
+  globalStore: ReturnType<typeof globalReducer>;
+};
+
 export const reducers = combineReducers({
   globalStore: globalReducer,
 });
